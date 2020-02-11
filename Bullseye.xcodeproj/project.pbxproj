@@ -15,6 +15,7 @@
 		D7A47BD323F291BD00E1A4B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7A47BD123F291BD00E1A4B1 /* LaunchScreen.storyboard */; };
 		D7A47BDE23F291BD00E1A4B1 /* BullseyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A47BDD23F291BD00E1A4B1 /* BullseyeTests.swift */; };
 		D7A47BE923F291BD00E1A4B1 /* BullseyeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A47BE823F291BD00E1A4B1 /* BullseyeUITests.swift */; };
+		D7A47BF923F2EA3500E1A4B1 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A47BF823F2EA3500E1A4B1 /* AboutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D7A47BE423F291BD00E1A4B1 /* BullseyeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullseyeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7A47BE823F291BD00E1A4B1 /* BullseyeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullseyeUITests.swift; sourceTree = "<group>"; };
 		D7A47BEA23F291BD00E1A4B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7A47BF823F2EA3500E1A4B1 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				D7A47BC623F291BB00E1A4B1 /* AppDelegate.swift */,
 				D7A47BC823F291BB00E1A4B1 /* SceneDelegate.swift */,
 				D7A47BCA23F291BB00E1A4B1 /* ContentView.swift */,
+				D7A47BF823F2EA3500E1A4B1 /* AboutView.swift */,
 				D7A47BCC23F291BD00E1A4B1 /* Assets.xcassets */,
 				D7A47BD123F291BD00E1A4B1 /* LaunchScreen.storyboard */,
 				D7A47BD423F291BD00E1A4B1 /* Info.plist */,
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7A47BF923F2EA3500E1A4B1 /* AboutView.swift in Sources */,
 				D7A47BC723F291BB00E1A4B1 /* AppDelegate.swift in Sources */,
 				D7A47BC923F291BB00E1A4B1 /* SceneDelegate.swift in Sources */,
 				D7A47BCB23F291BB00E1A4B1 /* ContentView.swift in Sources */,

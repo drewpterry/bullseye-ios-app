@@ -77,7 +77,7 @@ struct ContentView: View {
             Spacer()
             HStack {
                 Text("1").modifier(LabelStyle())
-                Slider(value: $sliderValue, in: 1...100).accentColor(midnightBlue)
+                Slider(value: $sliderValue, in: 1...100)
                 Text("100").modifier(LabelStyle())
             }
             Spacer()
@@ -104,7 +104,7 @@ struct ContentView: View {
                     self.resetGame()
                 }) {
                     HStack {
-                        Image("StartOverIcon").accentColor(midnightBlue)
+                        Image("StartOverIcon")
                         Text("Start over").modifier(ButtonSmallTextStyle())
                     }
                 }
@@ -116,10 +116,9 @@ struct ContentView: View {
                 Text("Round").modifier(LabelStyle())
                 Text("\(round)").modifier(ValueStyle())
                 Spacer()
-                Button(action: {
-                }) {
+                NavigationLink(destination: AboutView()) {
                     HStack {
-                        Image("InfoIcon").accentColor(midnightBlue)
+                        Image("InfoIcon")
                         Text("Info").modifier(ButtonSmallTextStyle())
                     }
                 }
@@ -127,6 +126,8 @@ struct ContentView: View {
             }.padding(.bottom, 20)
         }
         .background(Image("Background"), alignment: .center)
+        .accentColor(midnightBlue)
+    .navigationBarTitle("Bullseye")
     }
     
     func roundedValue() -> Int {
